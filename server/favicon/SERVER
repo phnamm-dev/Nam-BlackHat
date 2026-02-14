@@ -1,0 +1,38 @@
+-- namscript (ns/nsbash - bash ver) --
+(nsbash(config() {
+  script using(lib) {
+    ns;
+    nsbash++
+  };
+  $parent.sys.script.main(func) => main()
+};
+)end);
+
+func main() {
+  get var0 = "crr.namserver/server/00x0/priv/mdl"
+  do(nsbashpp.decode(0x00 b => ax0 0x0045000 in main(0x0000)){
+<nswb cver="nsbash-comp">
+    <nscript ver="v3">
+      $script using(lib) {
+          ns+v3;
+      }
+
+    func main() {
+      0x00 = var.do*bns(nsbash)++;
+    }
+    </nscript>
+    <nsbash>
+    000000000    0a eb 7e Js md A0 28 jS ma oS Va 88      ......<./namsc..
+    000000002    00 00 00 00 00 00 00 00 00 00 00 11      ../jsi.sufn.sjeu
+    000000003    er va r0 ab Bx 07 xb Ab sj ab i9 ai      .<fun>.var.do.co
+    000000006    aa bb 00 aa 00 00 00 jo lV 8a a9 CK      .dist./var.gvet.
+    000000012    sk lK k2 02 sk s0 20 s0 s0 02 ks Sv      .......var.enc.v
+    000000033    00 bB 0q bA 02 rV 49 sk KS ck O2 0s      000000000.encsdo
+    000000055    00 00 00 00 00 ee kk va ri 0v vk Kc      .v.var.v90.00.00
+    000000056    va va vr va 00 cc 00 00 00 cc 00 cc      ác.Vre%%%%mđ.asQ
+    000033339    00 00 00 00 00 00 00 00 00 00 00 00      .moun.point.-end
+    </nsbash>
+</nswb>
+    end()
+  })
+}
